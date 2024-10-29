@@ -1,0 +1,86 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-size: 17px;
+    font-weight: bold;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.nav-link{
+    transition: 0.5s ;
+}
+.nav-link:hover{
+    color: blueviolet !important;
+}
+.navbar{
+    border-bottom: 5px solid blueviolet !important;
+}
+.navbar-brand{
+    color: blueviolet !important;
+}
+#Header{
+    background-image: url(https://png.pngtree.com/png-vector/20230928/ourmid/pngtree-devices-for-the-digital-age-computer-laptop-mobile-phone-and-png-image_10124365.png);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: 100vh;
+}
+#Header .overlay{
+    background-color: rgba(29, 0, 29, 0.4);
+    height: 100vh;
+}
+.btn-outline-info{
+    border: 1px solid rgb(68, 0, 255) !important;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-outline-info:hover{
+    background-color: blueviolet;
+} 
+
+
+h3:hover {
+    color: blueviolet;
+}
+
+.fa-odnoklassniki, 
+.fa-rocket, 
+.fa-comment-dots {
+    color: blueviolet;
+    cursor: pointer;
+}
+#work{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0YxECjPEebccSZxCNK8U2SsmFwMPcKyp1hQ&s);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;    
+}
+#work i{
+    color: blueviolet;
+}
+.carousel-img {
+    max-width: 100%; 
+    height: auto; 
+    width: 66.67vw; 
+  }
+
+  @media (max-width: 768px) {
+    .carousel-img {
+      width: 100%; 
+    }
+  }
+  .carousel-caption {
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: blue; 
+    text-align: center; 
+  }
+  #slideshow{
+    background-color: rgb(138, 128, 128);
+  }
