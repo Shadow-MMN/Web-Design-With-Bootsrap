@@ -84,3 +84,124 @@ h3:hover {
   #slideshow{
     background-color: rgb(138, 128, 128);
   }
+#history{
+    background-color: rgb(140, 140, 141);
+}
+.history-text{
+    background-color: white;
+    height: 500px;
+    margin-left: -50px;
+    padding: 30px;
+}
+.history-image{
+    
+    margin-top: 90px;
+    margin-left: -120px;
+    position: relative;
+    z-index: 50;
+}
+.history-image img{
+    height: 300px;
+    width: 80%;
+}
+#gallery .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-container{
+    position: relative;
+    cursor: pointer;
+}
+.imgOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(102, 99, 95);
+    opacity: 0;
+    z-index: 1;
+}
+.img-container:hover .imgOverlay{
+    opacity: 0.5;
+}
+
+#footer{
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+}
+#footer .container{
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    margin: 20px 0;
+}
+.social a {
+    color: white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.content h2{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+#footer .container .content{
+    padding: 10px 20px;
+    color: white;
+}
+.second{
+    margin-left: 120px;
+}
+
+@media  (max-width: 1400px)
+{
+    #Header{
+        background-size: 1400px 100vh;
+    }
+}
+@media (max-width: 1200px)
+{
+    #Header{
+        background-size: 1200px 100vh;
+    }
+}
+@media (max-width: 992px)
+{
+    #Header{
+        background-size: 992px 100vh;
+    }
+}
+@media (max-width: 768px)
+{
+    #Header{
+        background-size: 768px 100vh;
+    }
+    .history-image{
+    
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media (max-width: 576px)
+{
+    #Header{
+        background-size: 576px 100vh;
+    }
+    .history-image{
+    
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+
